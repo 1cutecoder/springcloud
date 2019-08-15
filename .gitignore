@@ -1,7 +1,7 @@
 target/
 out/
 mvnw.cmd
-.iml
+*.iml
 .mvn/
 mvnw
 .DS_Store
