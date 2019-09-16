@@ -19,7 +19,19 @@ public class ConsumerController {
     private DiscoveryClient discoveryClient;
 
     @RequestMapping("test")
+    @HystrixCommand
     public String test1(){
+        RestTemplate restTemplate = new RestTemplate();
+        List<ServiceInstance> instances = discoveryClient.getInstances("eureka-client");
+        ServiceInstance serviceInstance = instances.get(0);
+        String host = serviceInstance.getHost();
+        String url = "http://"+host+":"+serviceInstance.getPort() +"hello";
+        String s = restTemplate.getForObject(url,String.class);
+        return "test"+s;
+    }
+
+    //服务降级
+    public String test2(){
         RestTemplate restTemplate = new RestTemplate();
         List<ServiceInstance> instances = discoveryClient.getInstances("eureka-client");
         ServiceInstance serviceInstance = instances.get(0);
