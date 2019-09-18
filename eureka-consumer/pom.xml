@@ -26,21 +26,11 @@
         <dependency>
             <groupId>com.netflix.hystrix</groupId>
             <artifactId>hystrix-core</artifactId>
-            <version>1.5.12</version>
+            <version>1.5.9</version>
         </dependency>
         <dependency>
             <groupId>com.netflix.hystrix</groupId>
-            <artifactId>hystrix-core</artifactId>
-            <version>1.5.12</version>
-        </dependency>
-        <dependency>
-            <groupId>com.netflix.hystrix</groupId>
-            <artifactId>hystrix-core</artifactId>
-            <version>1.5.12</version>
-        </dependency>
-        <dependency>
-            <groupId>com.netflix.hystrix</groupId>
-            <artifactId>hystrix-core</artifactId>
+            <artifactId>hystrix-javanica</artifactId>
             <version>1.5.12</version>
         </dependency>
     </dependencies>
@@ -62,8 +52,7 @@
             <!--服务降级-->
             <dependency>
                 <groupId>com.netflix.hystrix</groupId>
-                <artifactId>hystrix-core</artifactId>
-                <version>1.5.12</version>
+                <artifactId>hystrix-javanica</artifactId>
             </dependency>
         </dependencies>
     </dependencyManagement>
