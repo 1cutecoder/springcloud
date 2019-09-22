@@ -22,6 +22,7 @@ public class HelloController {
     @ResponseBody
     public String hello() {
         List<Admin> searchAdmin = adminService.getAdminByName("admin123");
+        System.out.println("eureka-client2 has bean called");
         return searchAdmin.toString();
     }
 }

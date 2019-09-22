@@ -9,10 +9,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @EnableDiscoveryClient
 @SpringBootApplication
 @MapperScan(basePackages = "cute.coder.eurekaclient1.mapper")
-public class EurekaClientApplication {
+public class EurekaClient2Application {
 
     public static void main(String[] args) {
-        new SpringApplicationBuilder(EurekaClientApplication.class).web(true).run(args);
+        new SpringApplicationBuilder(EurekaClient2Application.class).web(true).run(args);
 
     }
 

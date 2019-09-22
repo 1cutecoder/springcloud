@@ -1,4 +1,4 @@
-package cute.coder.eurekaconsumer.controller;
+package cute.coder.feign_service.controller;
 
 import com.netflix.hystrix.contrib.javanica.annotation.DefaultProperties;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
