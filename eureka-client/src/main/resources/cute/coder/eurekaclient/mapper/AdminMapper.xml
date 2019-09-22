@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="cute.coder.eurekaclient1.mapper.AdminMapper">
-  <resultMap id="BaseResultMap" type="cute.coder.eurekaclient1.bean.Admin">
+<mapper namespace="cute.coder.eurekaclient.mapper.AdminMapper">
+  <resultMap id="BaseResultMap" type="cute.coder.eurekaclient.bean.Admin">
     <id column="id" jdbcType="INTEGER" property="id"/>
     <result column="username"  property="username"/>
     <result column="password" property="password"/>
@@ -11,7 +11,7 @@
     <result column="add_time"  property="addTime"/>
     <result column="update_time" property="updateTime"/>
     <result column="deleted" property="deleted"/>
-    <result column="role_ids" property="roleIds" javaType="java.lang.Integer"  typeHandler="cute.coder.eurekaclient1.handler.StringToIntegersHandler"/>
+    <result column="role_ids" property="roleIds" javaType="java.lang.Integer"  typeHandler="cute.coder.eurekaclient.handler.StringToIntegersHandler"/>
   </resultMap>
   <sql id="Base_Column_List">
     id, username, password, last_login_ip, last_login_time, avatar, add_time, update_time, 
@@ -43,7 +43,7 @@
       #{addTime,jdbcType=TIMESTAMP}, #{updateTime,jdbcType=TIMESTAMP}, #{deleted,jdbcType=BIT},
       #{roleIds,typeHandler=cute.coder.eurekaclient.handler.StringToIntegersHandler})
   </insert>
-  <update id="updateByPrimaryKey" parameterType="cute.coder.eurekaclient1.bean.Admin">
+  <update id="updateByPrimaryKey" parameterType="cute.coder.eurekaclient.bean.Admin">
     update cskaoyan_mall_admin
     set username = #{username,jdbcType=VARCHAR},
       password = #{password,jdbcType=VARCHAR},

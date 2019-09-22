@@ -1,5 +1,5 @@
 /*
-package cute.coder.eurekaclient1;
+package cute.coder.eurekaclient;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

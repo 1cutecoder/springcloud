@@ -1,7 +1,7 @@
-package cute.coder.eurekaclient1.mapper;
+package cute.coder.eurekaclient.mapper;
 
-import cute.coder.eurekaclient1.bean.Admin;
-import cute.coder.eurekaclient1.bean.AdminExample;
+import cute.coder.eurekaclient.bean.Admin;
+import cute.coder.eurekaclient.bean.AdminExample;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

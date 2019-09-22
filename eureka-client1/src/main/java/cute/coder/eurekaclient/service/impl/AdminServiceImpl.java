@@ -1,8 +1,8 @@
-package cute.coder.eurekaclient1.service.impl;
+package cute.coder.eurekaclient.service.impl;
 
-import cute.coder.eurekaclient1.bean.Admin;
-import cute.coder.eurekaclient1.mapper.AdminMapper;
-import cute.coder.eurekaclient1.service.AdminService;
+import cute.coder.eurekaclient.bean.Admin;
+import cute.coder.eurekaclient.mapper.AdminMapper;
+import cute.coder.eurekaclient.service.AdminService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

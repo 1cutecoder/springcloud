@@ -1,4 +1,4 @@
-package cute.coder.eurekaclient1.bean;
+package cute.coder.eurekaclient.bean;
 
 import java.util.ArrayList;
 import java.util.Date;

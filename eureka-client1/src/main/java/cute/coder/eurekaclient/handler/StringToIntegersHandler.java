@@ -1,4 +1,4 @@
-package cute.coder.eurekaclient1.handler;
+package cute.coder.eurekaclient.handler;
 
 import org.apache.ibatis.type.BaseTypeHandler;
 import org.apache.ibatis.type.JdbcType;

@@ -1,6 +1,6 @@
-package cute.coder.eurekaclient1.service;
+package cute.coder.eurekaclient.service;
 
-import cute.coder.eurekaclient1.bean.Admin;
+import cute.coder.eurekaclient.bean.Admin;
 
 import java.util.List;
 

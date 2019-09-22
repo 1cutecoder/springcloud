@@ -1,7 +1,7 @@
-package cute.coder.eurekaclient1.controller;
+package cute.coder.eurekaclient.controller;
 
-import cute.coder.eurekaclient1.bean.Admin;
-import cute.coder.eurekaclient1.service.AdminService;
+import cute.coder.eurekaclient.bean.Admin;
+import cute.coder.eurekaclient.service.AdminService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
